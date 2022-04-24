@@ -552,16 +552,23 @@ ul{
       grid-template-columns:  repeat(4, 1fr);
      
   }
-
-.deal img{
+.deals .deal{
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+.deals .deal img{
       border-radius: 5px;
       width: 70%;
-      
+      transition: all 500ms ease;
 }
-.deal h1{
+
+.deals .deal img:hover{
+    transform: scale(1.2);
+}
+.cajita h1{
     font-size: 30px;
 }
-.deal p{
+.cajita p{
     font-family: "fuente";       
     letter-spacing: 2px;
     font-size: 20px;
