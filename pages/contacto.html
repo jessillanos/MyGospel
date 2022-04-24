@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../assets/img/mimi.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="sec">
+    <nav class="navbar">
+        <p class="logo">My Gospel</p>
+        <ul class="links">
+              <li> <a href="../index.html">Inicio</a></li>
+              <li> <a href="marcas.html">Marcas</a></li>
+              <li> <a href="promociones.html">Promociones</a></li>
+              <li> <a href="sobremygospel.html">Sobre MyGospel</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <img src="../assets/img/menu-regular-36.png" alt="pp" class="barrita">
+            <div class="social">
+              <img src="../assets/img/youtube-logo.png" alt="oops">
+              <img src="../assets/img/instagram-logo.png" alt="oops">
+              <img src="../assets/img/twitter-logo.png" alt="oops">
+              <img src="../assets/img/facebook-logo.png" alt="oops">
+              
+              </div>
+              <script>
+                const barrita = document.querySelector('.barrita')
+                const links = document.querySelector('.links')
+                barrita.addEventListener('click', ()=>{
+                    links.classList.toggle('mobile-menu')
+                }  )
+                </script>
+           </nav>
+        
+        
+        </div>
+
+    <div class="contenedor">
+        <div class="form">
+   
+          <form action=”servicio.php” method=”get”>
+          
+              <legend class="infoper">Login</legend>
+  
+                  <ul>       
+                  <li><label for=”Email”>Email:</label></li>
+                  <li><input type="email" name="email" /></li>
+                  </ul>
+                  
+                  <ul>
+                  <li><label for=”password” id=”password”>Contraseña:</label></li>
+                  <li><input type="password"></li>
+                  </ul>
+  
+                  <input  class="muestra-button" type="submit" value="INGRESAR"/>
+          </form>
+        </div>
+  
+        <div class="form">
+   
+          <form action=”servicio.php” method=”get”>
+          
+              <legend class="infoper">Información Personal</legend>
+                  <ul>
+                  <li><label for=”nombre”>Nombre:</label></li>
+                  <li><input type=”text” name=”nombre” id=”nombre” class=""  size=”8” maxlength=”40”></li>
+                  </ul>
+                  <ul>
+                  <li><label for=”apellido”>Apellido:</label></li>
+                  <li><input type=”text” name=”apellido” id=”apellido” size=”8” maxlength=”40”></ul></li>
+                  </ul>
+                  <ul>
+                  <li><label for=”Email”>Email:</label></li>
+                  <li><input type="email" name="email" /></li>
+                  </ul>          
+                  <ul>
+                  <li><label for=”password” id=”password”>Contraseña:</label></li>
+                  <li><input type="password"></li>
+                  </ul>
+     
+       
+                  <ul>
+                      <input  class="muestra-button" type="submit" value="Enviar formulario"/>
+                      <input class="muestra-button"  type="reset" value="Limpiar formulario"/>
+                 </ul> 
+            
+          </form>
+        </div>
+      </div>
+  
+
+      <footer class="pie-pagina">
+        <section class="info-footer" >
+        <div class="box">
+            <h2>Ayuda</h2>
+            <P>Formas de entrega</p>
+            <P>Formas de pago</p>
+            <P>Preguntas frecuentes</p>
+        </div>
+        <div class="box">
+            <h2>Contacto</h2>
+            <P>Ubicación:</p>
+            <P>Tel: #########</p>
+            <P>mygospel@gmail.com</p>
+        </div>
+        <div class="box">
+           <h2>Seguinos</h2>
+           <P>¡Entérate de nuestras novedades a través de nuestras redes sociales!</p>
+            <div class="social">
+              <img src="../assets/img/youtube-logo.png" alt="oops">
+              <img src="../assets/img/instagram-logo.png" alt="oops">
+              <img src="../assets/img/twitter-logo.png" alt="oops">
+              <img src="../assets/img/facebook-logo.png" alt="oops">
+              
+              </div>
+        </div> 
+        </section>
+</footer>
+
+
+
+</body>
+</html>
